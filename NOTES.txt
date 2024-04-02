@@ -1,0 +1,12 @@
+Deploying a three-tier application on Kubernetes involves organizing your system into three distinct layers for optimal functionality and management.
+
+Presentation Layer (Tier 1):
+The presentation layer is what users directly interact with when accessing a website or application. It encompasses the user interface and visual elements that users see and interact with.
+
+Logical Layer (Tier 2):
+The logical layer acts as the operational brain behind the scenes. It processes the input received from the presentation layer according to predefined rules and logic. For example, in a shopping website, this layer calculates the total price of items, applies discounts, and verifies product availability.
+
+Data Layer (Tier 3):
+The data layer serves as the repository for storing and retrieving data. It functions as the system's memory, housing data in databases, files, or other storage systems. The data layer is responsible for managing and maintaining the information required by the system to operate effectively.
+
+In summary, a three-tier application architecture on Kubernetes involves separating the presentation, logical, and data layers to enhance scalability, maintainability, and performance. Each layer plays a crucial role in the overall functioning of the application, ensuring seamless user experiences and efficient data management.
